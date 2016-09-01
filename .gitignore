@@ -1,0 +1,22 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+double valor1,valor2;
+double suma;
+
+valor1=Double.parseDouble(JOptionPane.showInputDialog("Ingrese valor 1"));
+valor2=Double.parseDouble(JOptionPane.showInputDialog("Ingrese valor 2"));
+
+suma = (valor1 * valor2) / 6;
+
+System.out.println("El resultado es:" + suma);
